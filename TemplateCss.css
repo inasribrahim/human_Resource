@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import 'https://fonts.googleapis.com/css?family=Fauna+One';
+/*Start Global fixed  */
+
+
+body{
+	color:#000;
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+    	
+}
+
+.container{
+	width:1200px; /*why using  1200px ? it is standard for screen large padding=30 left or right & width=1170   */
+	margin:auto; /*To get the content in center */		
+}
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+/*End Global fixed */
+
+/* Start NavBar*/
+.navbar{
+	overflow:hidden;
+	position: relative;
+	border: none;
+	background:#ddd;	
+
+}
+ .navbar .brand{
+	 float:left;
+	 width:20%;
+	 margin-left:20px;
+ }
+.navbar .links{
+	 float:left;
+	 width:80%;
+}
+.navbar .links li {
+	display:inline-block ;
+	padding:10px 10px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-bottom:2px solid transparent; /*border with padding you must size for text */
+}
+.navbar .links li.active,
+.navbar .links li:hover
+{
+	color:#fff;
+	border-bottom:2px solid yellow;
+	background: #262626;
+	border-radius: 20px;
+}
+
+figcaption{
+	color:black !important;
+}
+.card-container{
+	width:350px;
+	height:530px;
+	background:#fff;
+	border-radius:6px;
+	position:absolute;
+float :left;
+	transform:translate(-50%,-50); /*The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).*/
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow:hidden;
+	display:inline-block;
+
+	
+}
+h3{
+color:red;
+font-size: 30px;
+
+}
+.upper-container{
+	height:150px;
+	background:#FFDAB9;
+	
+	
+}
+.image-container{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	padding-left:10%;
+	transform:translate(100px,100px);
+
+}
+.image-container img {
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	
+}
+.lower-container{
+	height:280PX;
+	background:FFF;
+	padding:20px;
+	padding-top:40px;
+	text-align:center;
+    margin-top:25px;
+
+}
+.gird-container{
+	display: grid;
+	grid-template-columns: 33% 33% 33% ;
+	text-align: center;
+}
+
+.gird-container > .item{
+	padding: 40%;
+	background:#333;
+	color:#fff;
+	margin: 5px 0 ;  
+	box-shadow: 0px 1px 0px 1px #fff ;
+
+}
+.lower-container h3{
+		margin-top:25px;
+
+	box-sizing:border-box;
+	line-height:.6px;
+	font-weight:lighter;
+}
+.lower-container h4{
+	color:gray;
+	opacity:.6;
+	font-weight:bold;
+	margin-top:5px;
+
+}
+
+.lower-container p{
+	color:#008B8B ;
+	opacity:.6;
+	font-size:15px;
+	text-align:left;
+}
+
+/* End NavBar*/
+
+/*Start My Framework */
+/*End My Framework */
+.container-aside-and-content {
+width:100%;
+height:100%; 
+
+}
+/*View report*/
+#view-report th, td {
+	color:#800000;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+img {
+	  border-radius: 50%;
+}
+aside{
+	overflow:hidden;
+	background-color:#fff; 
+	height:400px;
+	width:25%;
+ 	padding: 5px;
+ 	color:white;
+ 	float: left;
+}
+
+
+footer{
+	background-color: steelblue;
+	color:white;
+	clear:both;
+}
+.sec{
+	background-color: #D3D3D3;
+	padding: 20px;
+	text-align: left;
+	width:70%;
+	height: 250px;
+	box-shadow: 0px 1px 10px 1px #000 ;
+ 	transform: translate(-50%,-50); 
+
+}
+.sec2{
+	background-color: #D3D3D3;
+	padding: 20px;
+	text-align: left;
+	width:70%;
+	height: 800px;
+	box-shadow: 0px 1px 10px 1px #000 ;
+ 	transform: translate(-50%,-50); 
+ 	left: right;
+ 	margin-top: 400px;
+ 	margin-left: 200px;
+
+}
+
+article section {
+	padding: 20px !important;
+}
+
+article section .sec1{
+	background-color:none;
+	width:110%;
+}
+article  section .sec .sec1 #headerbox{
+font-family: arial ;
+color: red ;
+}
+#ctextf{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+
+}
+#ctextl{
+	width: 49%;
+		float: right;
+
+}
+#csearchl{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+#csearchr{
+width: 49%;
+		float: right;
+
+}
+#cphonel{
+width: 10%;
+	float: left;
+	overflow: hidden;
+
+}
+#cphoner{
+		width: 89%;
+		float: right;
+}
+#csearchl{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+#chiddenr{
+	width: 49%;
+		float: right;
+}
+#csalaryl{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+#csalaryr{
+	width: 49%;
+		float: right;
+}
+#ctaxl{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+#ctaxr{
+width: 49%;
+		float: right;
+	}
+	#cpremissionl{
+		width: 50%;
+	float: left;
+	overflow: hidden;
+	}
+	#cpremissionr{
+		width: 49%;
+		float: right;
+	}
+
+label{
+	font-style: bold;
+	color:red;
+}
+article section .container-add{
+float:right;
+background-color:#fff; 
+width:68%;
+padding:2%;
+
+}
+.button {
+  background-color: #ddd;
+  border: none;
+  color:black!important;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 100%;
+  cursor: pointer;
+}
+input[type=text], input[type=password] , input[type=date],  input[type=file], input[type=search] , input[type=number], select ,textarea{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+  opacity: 2%;
+}
+#number{
+
+	resize: none !important ;
+}
+ input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background:green;
+  font-size:12px;
+  width:150px;
+  height:45px;
+  color:white;
+}
+ input[type=time] {
+
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+  opacity: 2%;
+ }
